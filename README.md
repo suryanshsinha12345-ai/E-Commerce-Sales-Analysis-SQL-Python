@@ -33,6 +33,3 @@ It covers the project objective, dataset structure, analytical workflow, basic a
 
 The presentation brings together the major insights from the SQL analysis and Python visualizations into a concise portfolio-ready format.
 
-### 📥 Presentation
-
-[View / Download Project Presentation](./PD06_Python_SQL_Project_Portfolio_final.pptx)
