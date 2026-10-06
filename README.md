@@ -1,9 +1,9 @@
 # E-Commerce-Sales-Analysis-SQL-Python
 End-to-end e-commerce data analysis using SQL and Python, covering customer, order, product, seller, revenue, retention, and sales trend analysis.
 
-## 📂 Project Deliverables
+##  Project Deliverables
 
-### 🗄️ SQL Analysis
+### SQL Analysis
 15 analytical SQL problems covering:
 - Basic Analysis
 - Intermediate Analysis
@@ -14,7 +14,7 @@ End-to-end e-commerce data analysis using SQL and Python, covering customer, ord
 - Ranking
 - Customer & Sales Analysis
 
-### 🐍 Python Analysis
+###  Python Analysis
 Google Colab notebook covering:
 - Data Preparation
 - Pandas Analysis
@@ -22,10 +22,10 @@ Google Colab notebook covering:
 - Exploratory Analysis
 - Matplotlib Visualizations
 
-### 📊 Portfolio Presentation
+###  Portfolio Presentation
 A presentation summarizing the project methodology, analysis, visualizations, key findings, and final results.
 
-## 📊 Portfolio Presentation
+## Portfolio Presentation
 
 The project presentation provides a structured overview of the complete e-commerce analysis performed using SQL and Python.
 
