@@ -293,6 +293,12 @@ ORDER BY year;
 -- percentage of customers who make another purchase within
 -- 6 months of their first purchase.
 
+-- ---------------------------------------------------------
+-- Advanced Problem 4:
+-- Calculate the retention rate of customers, defined as the
+-- percentage of customers who make another purchase within
+-- 6 months of their first purchase.
+
 WITH first_purchase AS (
     SELECT
         customer_id,
@@ -313,9 +319,11 @@ retained_customers AS (
 )
 
 SELECT
+    COUNT(fp.customer_id) AS total_customers,
+    COUNT(rc.customer_id) AS retained_customers,
     ROUND(
         100.0 * COUNT(rc.customer_id)
-        / COUNT(fp.customer_id),
+        / NULLIF(COUNT(fp.customer_id), 0),
         2
     ) AS retention_rate
 FROM first_purchase fp
